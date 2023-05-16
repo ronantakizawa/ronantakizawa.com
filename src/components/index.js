@@ -5,6 +5,7 @@ import About from "./About";
 import Experience from "./Experience";
 import Works from "./Works";
 import CanvasLoader from "./Loader";
+import Font from "../assets/font.json"
 
 
 export {
@@ -15,5 +16,6 @@ export {
   Works,
   CanvasLoader,
   ComputersCanvas, 
-  StarsCanvas
+  StarsCanvas,
+  Font
 };

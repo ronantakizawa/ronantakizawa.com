@@ -4,11 +4,11 @@ import { OrbitControls, Preload, Wireframe, useGLTF } from "@react-three/drei";
 import {FontLoader} from 'three/examples/jsm/loaders/FontLoader';
 import {TextGeometry} from 'three/examples/jsm/geometries/TextGeometry'
 import CanvasLoader from "../Loader";
-import almendra from "/Users/ronantakizawa/Documents/Personal CS projects/3dportfolio/Threejs-3D-Portfolio/src/assets/font.json"
+import {Font} from "../index"
 
 extend({TextGeometry})
 const Computers = ({ isMobile }) => {
-  const font = new FontLoader().parse(almendra)
+  const font = new FontLoader().parse(Font)
 
   return (
     <>

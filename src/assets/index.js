@@ -16,6 +16,9 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import webijcc from "./webijcc.png"
 import snowfroc from "./snowfroc.png"
+import portfolio from "./portfolio.png";
+import relaypractice from "./relaypractice.png";
+import font from "./font.json";
 
 export {
   logo,
@@ -32,5 +35,8 @@ export {
   profilepic,
   linkedin,
   gmail,
-  tiktok
+  tiktok,
+  portfolio,
+  relaypractice,
+  font
 };

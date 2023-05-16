@@ -3,9 +3,9 @@ import Tilt from "react-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
+import {profilepic,linkedin,github,gmail,tiktok} from "../assets";
 
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className="xs:w-[250px] w-full">
@@ -19,7 +19,7 @@ const ServiceCard = ({ index, title, icon }) => (
           scale: 1,
           speed: 450,
         }}
-        className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col"
+        className="bg-blue-950 rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col"
       >
         <img
           src={icon}
@@ -39,26 +39,59 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <p className={styles.sectionSubText}>ABOUT</p>
+        <h2 className={styles.sectionHeadText}>Overview</h2>
       </motion.div>
+      <motion.p
+        variants={fadeIn("", "", 0.1, 1)}
+        className="mt-4 text-white text-[20px] leading-10 w-full h-100 px-5 py-10"
+      >
+        <div className="flex space-x-16">
+          <div>
+        <p> <span className="font-bold">Bio:</span> 🇯🇵🇮🇪, CS Student @ Colorado College</p>
+        <p>OWASP Member, Tiktok Content creator w 500k views</p>
+        <br></br>
+        <p> <span className="font-bold">Languages:</span> Javascript , Typescript , Rust , HTML , CSS</p>
+        <br></br>
+        <p><span className="font-bold">Development Tools:</span> React , React Native , Tailwind , Bootstrap </p>
+        <p>NodeJS, REST API , GraphQL , Relay , Apollo , Firebase , MongoDB  Wordpress, Three.js</p>
+        <br></br>
+        <p><span className="font-bold">Web Security Tools:</span> Burp Suite, Metasploit</p>
+        <br></br>
+        <motion.div variants={textVariant()} className="flex py-5 space-x-3 content-center">
+        <button className="w-24 h-24 rounded-full 
+                       bg-linkedin text-white" onClick={()=>window.open("https://www.linkedin.com/in/ronantakizawa/")}>
+            <img src={linkedin} className=" object-contain"></img>
+        </button>
+        <button className="w-24 h-24 rounded-full  items-center
+                       bg-white  text-black" onClick={()=>window.open("mailto:ronantakizawa@gmail.com")}>
+            <img src={gmail} className="w-[65px] object-contain items-center ml-4"></img>
+        </button>
+        <button className="w-24 h-24 rounded-full 
+                       bg-black   text-white" onClick={()=>window.open("https://github.com/ronantakizawa")}>
+            <img src={github} className="w-32"></img>
+        </button>
+        <button className="w-24 h-24 rounded-full 
+                       bg-black  text-white" onClick={()=>window.open("https://www.tiktok.com/@codingselfimprovement")}>
+            <img src={tiktok} className=" object-contain "></img>
+        </button>
+        </motion.div>
+        </div>
+
+        <div>
+        <img src={profilepic} alt="profilepic" className="w-[450px] object-contain space-x-1 items-center" ></img>
+    
+
+
+        </div>
+        </div>
+      </motion.p>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
       </motion.p>
-
-      <div className="mt-20 flex flex-wrap gap-10">
-        {services.map((service, index) => (
-          <ServiceCard key={service.title} index={index} {...service} />
-        ))}
-      </div>
     </>
   );
 };

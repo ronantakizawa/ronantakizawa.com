@@ -1,28 +1,11 @@
 import {
-  mobile,
-  backend,
-  creator,
-  web,
-  javascript,
-  typescript,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  ijcc,
+  clear,
   carrent,
   jobit,
   tripguide,
-  threejs,
+  webijcc,
+  snowfroc
 } from "../assets";
 
 export const navLinks = [
@@ -35,138 +18,35 @@ export const navLinks = [
     title: "Work",
   },
   {
-    id: "contact",
-    title: "Contact",
-  },
-];
-
-const services = [
-  {
-    title: "Web Developer",
-    icon: web,
-  },
-  {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
-  },
-];
-
-const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
+    id: "projects",
+    title: "Projects",
   },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Project Intern",
+    company_name: "Ireland Japan Chamber of Commerce",
+    icon: ijcc,
+    iconBg: "#FFFFFF",
+    date: "December 2022 - May 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Generated content for website efficiently using GPT-3.",
+      "Redesigned website using HTML, CSS, and Javascript.",
+      "Automated website updates using widgets.",
+      "Created 5 graphic designs to promote networking events on social media.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    title: "Software Engineering Intern",
+    company_name: "Clear",
+    icon: clear,
+    iconBg: "#479EEA",
+    date: "May 2023 - August 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Mobile development with: React Native, Typescript, Rust, NodeJS, Firebase",
     ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  }
 ];
 
 const testimonials = [
@@ -198,68 +78,124 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Relay Practice App",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
+      "A dummy mobiel app built for the Clear internship. Backend: Firebase, Rust, GraphQL. Frontend: React Native, Relay.",
+      tags: [
+        {
+          name: "Firebase",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Rust",
+          color: "green-text-gradient",
+        },
+        {
+          name: "ReactNative",
+          color: "pink-text-gradient",
+        },
+      ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/ronantakizawa/relaypractice",
   },
   {
-    name: "Job IT",
+    name: "MMA Quiz",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
+      "This is a simple quiz web application that calculates what kind of fighter you are using React, Bootstrap, ApexGraph.js.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Bootstrap",
+          color: "green-text-gradient",
+        },
+        {
+          name: "ApexGraph.js",
+          color: "pink-text-gradient",
+        },
+      ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/ronantakizawa/fightingquiz",
   },
   {
-    name: "Trip Guide",
+    name: "International Schools API",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
+      "This is an API built with MongoDB and NodeJS to get information about international schools around the world.",
+      tags: [
+        {
+          name: "MongoDB",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "NodeJS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "REST APIs",
+          color: "pink-text-gradient",
+        },
+        
+      ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/ronantakizawa/internationalschoolsapi/",
+  },
+  {
+    name: "Personal Portfolio",
+    description:
+      "This is my personal development portfolio modeled from Ladunjexa's portfolio. Uses: React, Tailwind CSS, Three.js.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "TailwindCSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Three.js",
+          color: "pink-text-gradient",
+        },
+      ],
+    image: tripguide,
+    source_code_link: "https://ijcc.jp/",
+  },
+  {
+    name: "Jr Pentester Certification",
+    description:
+      "Tryhackme offensive penetration testing certificate. Learned: Web App Vulnerabilities, BurpSuite, Metasploit, NMAP.",
+      tags: [
+        {
+          name: "Metasploit",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "BurpSuite",
+          color: "green-text-gradient",
+        },
+        {
+          name: "NMAP",
+          color: "pink-text-gradient",
+        },
+      ],
+    image: webijcc,
+    source_code_link: "https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-KKQYLVSSIF.png",
+  },
+  {
+    name: "SnowFROC 2023 CTF",
+    description:
+      "Placed 4th in OWASP's Website pentesting CTF. Found 13 vulnerabilities: SQL Injection, XSS, Directory Traversal...",
+      tags: [
+        {
+          name: "WebAppSecurity",
+          color: "blue-text-gradient",
+        },
+      ],
+    image: snowfroc,
+    source_code_link: "https://github.com/ronantakizawa/SnowFROC-CTF",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export {experiences, testimonials, projects };

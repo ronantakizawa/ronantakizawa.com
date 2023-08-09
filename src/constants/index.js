@@ -1,13 +1,12 @@
 import {
-  ijcc,
   clear,
-  carrent,
+  ijcc,
   jobit,
+  portfolio,
+  relaypractice,
+  snowfroc,
   tripguide,
   webijcc,
-  snowfroc,
-  portfolio,
-  relaypractice
 } from "../assets";
 
 export const navLinks = [
@@ -41,137 +40,105 @@ const experiences = [
   },
   {
     title: "Software Engineering Intern",
-    company_name: "Clear",
+    company_name: "Clear (Y Combinator W21)",
     icon: clear,
     iconBg: "#479EEA",
     date: "May 2023 - August 2023",
     points: [
-      "Mobile development with: React Native, Typescript, Rust, NodeJS, Firebase",
+      "DevOps fullstack mobile development with: React Native, Typescript, NodeJS, GraphQL, Rust, SQL, Docker, GitLab",
+      "Improved UI/ UX animations, patched login errors, created new API queries for Rust Server",
+      "Pushed 40 commits and fixed 20 Github issues",
     ],
-  }
+  },
 ];
-
 
 const projects = [
   {
-    name: "Relay Practice App",
-    description:
-      "A dummy mobiel app built for the Clear internship. Backend: Firebase, Rust, GraphQL. Frontend: React Native, Relay.",
-      tags: [
-        {
-          name: "Firebase",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Rust",
-          color: "green-text-gradient",
-        },
-        {
-          name: "ReactNative",
-          color: "pink-text-gradient",
-        },
-      ],
-    image: relaypractice,
-    source_code_link: "https://github.com/ronantakizawa/relaypractice",
-  },
-  {
     name: "MMA Quiz",
     description:
-      "This is a simple quiz web application that calculates what kind of fighter you are using React, Bootstrap, ApexGraph.js.",
-      tags: [
-        {
-          name: "React",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Bootstrap",
-          color: "green-text-gradient",
-        },
-        {
-          name: "ApexGraph.js",
-          color: "pink-text-gradient",
-        },
-      ],
+      "This is a simple quiz web application that calculates what kind of fighting style is optimal for you. This project is dockerized.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Bootstrap",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Docker",
+        color: "pink-text-gradient",
+      },
+    ],
     image: jobit,
     source_code_link: "https://github.com/ronantakizawa/fightingquiz",
   },
   {
-    name: "International Schools API",
+    name: "IS API",
     description:
-      "This is an API built with MongoDB and NodeJS to get information about international schools around the world.",
-      tags: [
-        {
-          name: "MongoDB",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "NodeJS",
-          color: "green-text-gradient",
-        },
-        {
-          name: "REST APIs",
-          color: "pink-text-gradient",
-        },
-        
-      ],
+      "API built with MongoDB and NodeJS to get information about international schools. Deployed with AWS EC2.",
+    tags: [
+      {
+        name: "MongoDB",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "NodeJS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "AWSEC2",
+        color: "pink-text-gradient",
+      },
+    ],
     image: tripguide,
-    source_code_link: "https://github.com/ronantakizawa/internationalschoolsapi/",
+    source_code_link:
+      "https://github.com/ronantakizawa/internationalschoolsapi/",
   },
   {
     name: "Personal Portfolio",
     description:
-      "This is my personal development portfolio modeled from Ladunjexa's portfolio. Uses: React, Tailwind CSS, Three.js.",
-      tags: [
-        {
-          name: "React",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "TailwindCSS",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Three.js",
-          color: "pink-text-gradient",
-        },
-      ],
+      "This is my personal development portfolio modeled from Ladunjexa's portfolio.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TailwindCSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Three.js",
+        color: "pink-text-gradient",
+      },
+    ],
     image: portfolio,
     source_code_link: "https://ijcc.jp/",
   },
   {
-    name: "Jr Pentester Certification",
+    name: "Envirobattery",
     description:
-      "Tryhackme offensive penetration testing certificate. Learned: Web App Vulnerabilities, BurpSuite, Metasploit, NMAP.",
-      tags: [
-        {
-          name: "Metasploit",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "BurpSuite",
-          color: "green-text-gradient",
-        },
-        {
-          name: "NMAP",
-          color: "pink-text-gradient",
-        },
-      ],
+      "Chrome extension that calculates your carbon footprint from your laptop usage.",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "VanillaJavascript",
+        color: "pink-text-gradient",
+      },
+    ],
     image: webijcc,
-    source_code_link: "https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-KKQYLVSSIF.png",
-  },
-  {
-    name: "SnowFROC 2023 CTF",
-    description:
-      "Placed 4th in OWASP's Website pentesting CTF. Found 13 vulnerabilities: SQL Injection, XSS, Directory Traversal...",
-      tags: [
-        {
-          name: "WebAppSecurity",
-          color: "blue-text-gradient",
-        },
-      ],
-    image: snowfroc,
-    source_code_link: "https://github.com/ronantakizawa/SnowFROC-CTF",
+    source_code_link:
+      "https://chrome.google.com/webstore/detail/envirobattery/bopeofklopcheapjeoncmccndnceoocb",
   },
 ];
 
-export {experiences, projects };
+export { experiences, projects };

@@ -74,7 +74,10 @@ const ComputersCanvas = () => {
         </Suspense>
         <Preload all />
       </Canvas>}
-      <p className="text-center text-secondary text-[20px] align-text-top relative bottom-36">Press to rotate</p>
+      <p className="text-center text-secondary text-[20px] align-text-top relative bottom-36">Drag to rotate</p>
+      <br></br>
+      <br></br>
+      <p className="text-center text-secondary text-[20px] align-text-top relative bottom-36">↓ Scroll down to view portfolio ↓</p>
     </>
   );
 };

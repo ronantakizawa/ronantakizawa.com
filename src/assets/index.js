@@ -10,6 +10,7 @@ import clear from "./company/clear.png";
 import linkedin from "./company/linkedin.webp"
 import gmail from "./company/gmail.png"
 import tiktok from "./company/tiktok.webp"
+import resume from "./resumeicon.png"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -38,5 +39,6 @@ export {
   tiktok,
   portfolio,
   relaypractice,
-  font
+  font,
+  resume
 };

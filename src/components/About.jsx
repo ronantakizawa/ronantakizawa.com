@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import Tilt from "react-tilt";
 
-import { github, gmail, linkedin, profilepic, tiktok } from "../assets";
+import { github, gmail, linkedin, profilepic, tiktok, resume } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { styles } from "../styles";
 import { fadeIn, textVariant } from "../utils/motion";
@@ -92,6 +92,15 @@ function About() {
                 }
               >
                 <img src={linkedin} className=" object-contain" />
+              </button>
+              <button
+                className="w-24 h-24 rounded-full 
+                       bg-white  text-white"
+                onClick={() =>
+                  window.open("https://drive.google.com/file/d/1bXBT57ljv55Oteawz_aon4W4P-d4pj2p/view?usp=sharing")
+                }
+              >
+                <img src={resume} className="w-[65px] object-contain items-center ml-4" />
               </button>
               <button
                 className="w-24 h-24 rounded-full  items-center

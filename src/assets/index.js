@@ -14,6 +14,7 @@ import telespeech from "./telespeech.png"
 import powaboxing from "./powaboxing.png"
 import websec4webdev from "./websec4webdev.png"
 import tripguide from "./tripguide.png";
+import medium_logo from "./medium_logo.png"
 import font from "./font.json";
 
 export {
@@ -33,5 +34,6 @@ export {
   ssl,
   telespeech,
   powaboxing,
-  websec4webdev
+  websec4webdev,
+  medium_logo
 };

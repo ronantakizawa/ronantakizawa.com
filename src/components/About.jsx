@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import Tilt from "react-tilt";
 
-import { github, gmail, linkedin, profilepic, tiktok, resume } from "../assets";
+import { github, gmail, linkedin, profilepic, tiktok, medium_logo } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { styles } from "../styles";
 import { fadeIn, textVariant } from "../utils/motion";
@@ -90,12 +90,12 @@ function About() {
               </button>
               <button
                 className="w-24 h-24 rounded-full 
-                       bg-white  text-white"
+                       bg-black  text-white"
                 onClick={() =>
-                  window.open("https://drive.google.com/file/d/1bXBT57ljv55Oteawz_aon4W4P-d4pj2p/view?usp=sharing")
+                  window.open("https://medium.com/@ronantech")
                 }
               >
-                <img src={resume} className="w-[65px] object-contain items-center ml-4" />
+                <img src={medium_logo} className="w-[65px] object-contain items-center ml-4" />
               </button>
               <button
                 className="w-24 h-24 rounded-full  items-center

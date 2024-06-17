@@ -41,48 +41,43 @@ function About() {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>ABOUT</p>
-        <h2 className={styles.sectionHeadText}>Overview</h2>
       </motion.div>
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className="text-xl mt-4 text-white leading-10 h-100 py-10"
+        className="text-xl mt-4 text-white leading-10 h-full"
       >
-        <div className="flex space-x-16">
+        <div className="flex space-x-16 ">
           <div>
             <p>
               {" "}
-              <span className="font-bold">Bio:</span> 🇯🇵🇮🇪 , CS Student @
+              <span className="font-bold mb-16">Bio:</span> CS Student @
               Colorado College
             </p>
-            <p>OWASP Member, Content Creator w 50M views</p>
-            <br />
+            <p> Content Creator (50M views, 90k+ followers)</p>
             <p>
               {" "}
               <span className="font-bold">Languages:</span>
-               &nbsp; Typescript , Rust , SQL , HTML , CSS, Python , Java
+               &nbsp; Typescript , Rust , C++, SQL , HTML , CSS, Python
             </p>
-            <br />
             <p>
-              <span className="font-bold">Development Tools:</span> React ,
+              <span className="font-bold">Development Tools:</span> NextJS ,
               React Native , Tailwind , Bootstrap{" "}
             </p>
             <p>
-              NodeJS, REST API , GraphQL , Relay , Apollo , Firebase , MongoDB ,
-              Wordpress, Three.js , AWS , Docker
+              NodeJS , GraphQL , Apollo , Firebase , MongoDB,
             </p> 
-            <br />
             <p>
-              <span className="font-bold">Web Security Tools:</span> Burp Suite ,
-              Metasploit
+            Wordpress, Three.js , AWS , Docker , Pytorch, Scikit-Learn, VectorDB
             </p>
-            <br />
             <p>
-              <span className="font-bold">Accomplishments:</span> Placed 4th in OWASP SnowFROC CTF 2023
+              <span className="font-bold">Accomplishments:</span> HackHarvard 2023 Winner
+              <p>
+              Founder of Punch Analytics (Acquired by POWA Boxing)
+              </p>
             </p>
-            <br />
             <motion.div
               variants={textVariant()}
-              className="flex py-5 space-x-3 content-center"
+              className="flex py-5 space-x-3 content-center "
             >
               <button
                 className="w-24 h-24 rounded-full 
@@ -135,7 +130,7 @@ function About() {
             <img
               src={profilepic}
               alt="profilepic"
-              className="w-[450px] object-contain space-x-1 items-center"
+              className="w-[350px] space-x-2 items-center h-[420px]"
             />
           </div>
         </div>

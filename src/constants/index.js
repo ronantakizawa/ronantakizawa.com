@@ -1,12 +1,11 @@
 import {
   clear,
   ijcc,
-  jobit,
-  portfolio,
-  relaypractice,
-  snowfroc,
   tripguide,
-  webijcc,
+  ssl,
+  telespeech,
+  powaboxing,
+  websec4webdev
 } from "../assets";
 
 export const navLinks = [
@@ -26,7 +25,7 @@ export const navLinks = [
 
 const experiences = [
   {
-    title: "Project Intern",
+    title: "Software Engineering Intern",
     company_name: "Ireland Japan Chamber of Commerce",
     icon: ijcc,
     iconBg: "#FFFFFF",
@@ -50,94 +49,98 @@ const experiences = [
       "Pushed 40 commits and fixed 20 Github issues",
     ],
   },
+  {
+    title: "Researcher",
+    company_name: "NYU Secure Systems Lab",
+    icon: ssl,
+    iconBg: "#FFFFFF",
+    date: "May 2024 - August 2024",
+    points: [
+      "Patched, and added new features to The Archive Framework (TAF)",
+      "Improved CI/CD pipeline by adding action to build a cross-platform standalone executable of TAF",
+      "Optimized function runtime to make it 25% faster",
+    ],
+  }
 ];
 
 const projects = [
   {
-    name: "MMA Quiz",
+    name: "Telespeech",
     description:
-      "This is a simple quiz web application that calculates what kind of fighting style is optimal for you. This project is dockerized.",
+      "AI-powered text-to-speech chrome extension using Firebase and a NextJS sever connected to ElevenLabs API.",
     tags: [
       {
-        name: "React",
+        name: "HackHarvard",
         color: "blue-text-gradient",
       },
       {
-        name: "Bootstrap",
+        name: "Text2Speech",
+        color: "green-text-gradient",
+      },
+    ],
+    image: telespeech,
+    source_code_link: "https://github.com/ronantakizawa/telespeech",
+  },
+  {
+    name: "Punch Analytics",
+    description:
+      "ML SaaS that analyzes boxing performance using POWA Boxing's Punch Sensors. Acquired by POWA Boxing.",
+    tags: [
+      {
+        name: "OpenCV",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "IoT",
         color: "green-text-gradient",
       },
       {
-        name: "Docker",
+        name: "React",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/ronantakizawa/fightingquiz",
+    image: powaboxing,
+    source_code_link:
+      "https://github.com/ronantakizawa/punchanalytics",
+  },
+  {
+    name: "Web Sec 4 Web Dev",
+    description:
+      "A free Udemy course on secure web development and web pentesting. 2700+ students.",
+    tags: [
+      {
+        name: "Web Security",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Pentesting",
+        color: "green-text-gradient",
+      },
+    ],
+    image: websec4webdev,
+    source_code_link: "https://www.udemy.com/course/websec4webdev/",
   },
   {
     name: "IS API",
     description:
-      "API built with MongoDB and NodeJS to get information about international schools. Deployed with AWS EC2.",
+      "API built with MongoDB and NodeJS to get information about international schools. Deployed with AWS, k8.",
     tags: [
       {
         name: "MongoDB",
         color: "blue-text-gradient",
       },
       {
-        name: "NodeJS",
+        name: "AWS",
         color: "green-text-gradient",
       },
       {
-        name: "AWSEC2",
+        name: "k8",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
     source_code_link:
       "https://github.com/ronantakizawa/internationalschoolsapi/",
-  },
-  {
-    name: "Personal Portfolio",
-    description:
-      "This is my personal development portfolio modeled from Ladunjexa's portfolio.",
-    tags: [
-      {
-        name: "React",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "TailwindCSS",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Three.js",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: portfolio,
-    source_code_link: "https://ijcc.jp/",
-  },
-  {
-    name: "Envirobattery",
-    description:
-      "Chrome extension that calculates your carbon footprint from your laptop usage.",
-    tags: [
-      {
-        name: "HTML",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "CSS",
-        color: "green-text-gradient",
-      },
-      {
-        name: "VanillaJavascript",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: webijcc,
-    source_code_link:
-      "https://chrome.google.com/webstore/detail/envirobattery/bopeofklopcheapjeoncmccndnceoocb",
   },
 ];
 

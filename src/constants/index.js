@@ -34,7 +34,6 @@ const experiences = [
       "Generated content for website efficiently using GPT-3.",
       "Redesigned website using HTML, CSS, and Javascript.",
       "Automated website updates using widgets.",
-      "Created 5 graphic designs to promote networking events on social media.",
     ],
   },
   {

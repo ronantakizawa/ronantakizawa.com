@@ -12,43 +12,43 @@ function About() {
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>ABOUT</p>
       </motion.div>
-      <div className="flex flex-col md:flex-row items-center md:items-start space-x-0 md:space-x-16 mt-4">
+      <div className="flex flex-col md:flex-row items-start space-x-0 md:space-x-16 mt-4">
         <div className="flex flex-col w-full md:w-1/2 space-y-6">
           <motion.div
             variants={fadeIn("", "", 0.1, 1)}
-            className="text-l text-white leading-8 bg-[#172554] rounded-lg p-6"
+            className="text-white leading-8 bg-[#172554] rounded-lg p-6"
           >
-            <p className="font-bold">Bio</p>
+            <h3 className="font-bold text-lg">Bio</h3>
             <p>- CS Student @ Colorado College</p>
             <p>- Content Creator (50M views, 90k+ followers)</p>
           </motion.div>
           <motion.div
             variants={fadeIn("", "", 0.1, 1)}
-            className="text-l text-white leading-8 bg-[#172554] rounded-lg p-6"
+            className="text-white leading-8 bg-[#172554] rounded-lg p-6"
           >
-            <h3 className="font-bold">Skills</h3>
+            <h3 className="font-bold text-lg">Skills</h3>
             <p>- Typescript, Python, Rust, C++, HTML, NextJS, React Native</p>
             <p>- GraphQL, Firebase, AWS, Docker, MongoDB</p>
           </motion.div>
           <motion.div
             variants={fadeIn("", "", 0.1, 1)}
-            className="text-l text-white leading-8 bg-[#172554] rounded-lg p-6"
+            className="text-white leading-8 bg-[#172554] rounded-lg p-6"
           >
-            <p className="font-bold">Accomplishments</p>
+            <h3 className="font-bold text-lg">Accomplishments</h3>
             <p>- HackHarvard 2023 Winner</p>
             <p>- Founder of Punch Analytics (Acquired by POWA Boxing)</p>
           </motion.div>
         </div>
 
-        <div className="w-full md:w-1/2 flex flex-col items-center relative up bottom-10 ">
+        <div className="w-full md:w-1/2 flex flex-col items-center relative bottom-10">
           <img
             src={profilepic}
             alt="profilepic"
-            className="w-[300px] h-[400px] md:w-[400px] md:h-[500px] object-cover mb-8"
+            className="w-[300px] h-[400px] md:w-[400px] md:h-[500px] object-cover mb-8 md:mb-0"
           />
           <motion.div
             variants={textVariant()}
-            className="flex space-x-1 content-center"
+            className="flex space-x-1 content-center mt-4"
           >
             <button
               className="w-16 h-16 rounded-full bg-linkedin text-white"

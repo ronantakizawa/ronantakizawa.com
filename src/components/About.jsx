@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import Tilt from "react-tilt";
 
 import { github, gmail, linkedin, tiktok, medium_logo, profilepic } from "../assets";
 import { SectionWrapper } from "../hoc";
@@ -40,42 +39,42 @@ function About() {
           </motion.div>
         </div>
 
-        <div className="w-full md:w-1/2 flex flex-col items-center relative bottom-10">
+        <div className="w-full md:w-1/2 flex flex-col items-center relative bottom-6">
           <img
             src={profilepic}
             alt="profilepic"
-            className="w-[300px] h-[400px] md:w-[400px] md:h-[500px] object-cover mb-8 md:mb-0"
+            className="w-[200px] h-[300px] md:w-[300px] md:h-[400px] object-cover mb-7 md:mb-0"
           />
           <motion.div
             variants={textVariant()}
             className="flex space-x-1 content-center mt-4"
           >
             <button
-              className="w-16 h-16 rounded-full bg-linkedin text-white"
+              className="w-14 h-14 rounded-full bg-linkedin text-white"
               onClick={() => window.open("https://www.linkedin.com/in/ronantakizawa/")}
             >
               <img src={linkedin} className="object-contain" />
             </button>
             <button
-              className="w-16 h-16 rounded-full bg-black text-white"
+              className="w-14 h-14 rounded-full bg-black text-white"
               onClick={() => window.open("https://medium.com/@ronantech")}
             >
-              <img src={medium_logo} className="w-[55px] object-contain items-center m-1" />
+              <img src={medium_logo} className="w-[55px] object-contain items-center" />
             </button>
             <button
-              className="w-16 h-16 rounded-full items-center bg-white text-black"
+              className="w-14 h-14 rounded-full items-center bg-white text-black"
               onClick={() => window.open("mailto:ronantakizawa@gmail.com")}
             >
-              <img src={gmail} className="w-[45px] object-contain items-center ml-[10px]" />
+              <img src={gmail} className="w-[35px] object-contain items-center ml-[11px]" />
             </button>
             <button
-              className="w-16 h-16 rounded-full bg-black text-white"
+              className="w-14 h-14 rounded-full bg-black text-white"
               onClick={() => window.open("https://github.com/ronantakizawa")}
             >
               <img src={github} className="w-32" />
             </button>
             <button
-              className="w-16 h-16 rounded-full bg-black text-white"
+              className="w-14 h-14 rounded-full bg-black text-white"
               onClick={() => window.open("https://www.tiktok.com/@ronantech")}
             >
               <img src={tiktok} className="object-contain" />

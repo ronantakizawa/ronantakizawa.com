@@ -18,7 +18,7 @@ function About() {
             className="text-white leading-8 bg-[#172554] rounded-lg p-6"
           >
             <h3 className="font-bold text-lg">Bio</h3>
-            <p>- CS Student @ Colorado College</p>
+            <p>- CS @ Colorado College, Coding Club Leader</p>
             <p>- Content Creator (50M views, 90k+ followers)</p>
           </motion.div>
           <motion.div
@@ -26,8 +26,8 @@ function About() {
             className="text-white leading-8 bg-[#172554] rounded-lg p-6"
           >
             <h3 className="font-bold text-lg">Skills</h3>
-            <p>- Typescript, Python, Rust, C++, HTML, NextJS, React Native</p>
-            <p>- GraphQL, Firebase, AWS, Docker, MongoDB</p>
+            <p>- Typescript, Python, Rust, C++, NextJS, React Native, Pytorch</p>
+            <p>- GraphQL, Firebase, AWS, MongoDB, Docker, Kubernetes </p>
           </motion.div>
           <motion.div
             variants={fadeIn("", "", 0.1, 1)}

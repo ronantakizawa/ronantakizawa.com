@@ -21,7 +21,7 @@ const ProjectCard = ({
         options={{ max: 45, scale: 1, speed: 450 }}
         className="bg-blue-950 p-5 rounded-2xl w-64"
       >
-        <div className="relative w-full h-[230px]">
+        <div className="relative w-full h-[230px]" onClick={() => window.open(source_code_link, "_blank")}>
           <img
             src={image}
             alt={name}
@@ -29,7 +29,6 @@ const ProjectCard = ({
           />
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
             <div
-              onClick={() => window.open(source_code_link, "_blank")}
               className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
             >
               <img
@@ -60,7 +59,7 @@ const Works = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>ACCOMPLISHMENTS</p>
+        <p className={styles.sectionSubText}>PROJECTS</p>
         <h2 className={styles.sectionHeadText}>Projects</h2>
       </motion.div>
 

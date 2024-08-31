@@ -5,7 +5,8 @@ import {
   ssl,
   telespeech,
   powaboxing,
-  websec4webdev
+  websec4webdev,
+  zksecurity
 } from "../assets";
 
 export const navLinks = [
@@ -56,8 +57,20 @@ const experiences = [
     date: "May 2024 - August 2024",
     points: [
       "Patched, and added new features to The Archive Framework (TAF)",
-      "Improved CI/CD pipeline by adding action to build a cross-platform standalone executable of TAF",
-      "Optimized function runtime to make it 25% faster",
+      "Optimized function runtime to make it 25% faster (Threading, lazy loading), wrote 12 new security tests, built a new key generation/signing protocol with Yubikeys.",
+      "Improved CI/CD pipeline by adding action to build a standalone executable of TAF",
+    ],
+  },
+  {
+    title: "Open Source Developer",
+    company_name: "ZK Security",
+    icon: zksecurity,
+    iconBg: "#FFFFFF",
+    date: "August 2024",
+    points: [
+      "Worked on Noname, a programming language to write ZK Proofs",
+      "Implemented CI workflow that builds an entire ZK-proof scheme to test Noname’s functionality",
+      "Wrote variable type-checking functions for writing ZK-proofs"
     ],
   }
 ];

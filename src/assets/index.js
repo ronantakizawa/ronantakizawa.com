@@ -10,6 +10,7 @@ import gmail from "./company/gmail.png"
 import tiktok from "./company/tiktok.webp"
 import resume from "./resumeicon.png"
 import ssl from "./ssl.png"
+import zksecurity from "./zksecurity.png"
 import telespeech from "./telespeech.png"
 import powaboxing from "./powaboxing.png"
 import websec4webdev from "./websec4webdev.png"
@@ -32,6 +33,7 @@ export {
   font,
   resume,
   ssl,
+  zksecurity,
   telespeech,
   powaboxing,
   websec4webdev,

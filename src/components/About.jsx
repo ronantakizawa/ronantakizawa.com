@@ -19,7 +19,7 @@ function About() {
           >
             <h3 className="font-bold text-lg">Bio</h3>
             <p>- CS @ Colorado College, Coding Club Leader</p>
-            <p>- Content Creator (50M views, ~100k followers)</p>
+            <p>- Content Creator (50M views, 100k+ followers)</p>
           </motion.div>
           <motion.div
             variants={fadeIn("", "", 0.1, 1)}

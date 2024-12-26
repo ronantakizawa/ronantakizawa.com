@@ -133,26 +133,26 @@ const projects = [
     source_code_link: "https://www.udemy.com/course/websec4webdev/",
   },
   {
-    name: "IS API",
+    name: "Time Series KAN",
     description:
-      "API built with MongoDB and NodeJS to get information about international schools. Deployed with AWS, k8.",
+      "A Kolmogorov-Arnold Network for time series anomaly detection (100+ claps on Medium).",
     tags: [
       {
-        name: "MongoDB",
+        name: "Pytorch",
         color: "blue-text-gradient",
       },
       {
-        name: "AWS",
+        name: "ML",
         color: "green-text-gradient",
       },
       {
-        name: "k8",
+        name: "TimeSeries",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
     source_code_link:
-      "https://github.com/ronantakizawa/internationalschoolsapi/",
+      "https://medium.com/@ronantech/time-series-anomaly-detection-using-kolmogorov-arnold-networks-abd9bbeaa9af",
   },
 ];
 

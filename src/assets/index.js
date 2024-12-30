@@ -1,4 +1,4 @@
-import logo from "./logo.png";
+import house from "./house.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -19,7 +19,7 @@ import medium_logo from "./medium_logo.png"
 import font from "./font.json";
 
 export {
-  logo,
+  house,
   github,
   menu,
   close,

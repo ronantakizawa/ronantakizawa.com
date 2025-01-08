@@ -79,14 +79,14 @@ const projects = [
   {
     name: "Telespeech",
     description:
-      "AI-powered text-to-speech chrome extension using Firebase and a NextJS sever connected to ElevenLabs API.",
+      "HackHarvard2023 1st Place. Text-to-speech chrome extension to turn group chats into natural conversations.",
     tags: [
       {
-        name: "HackHarvard",
+        name: "NextJS",
         color: "blue-text-gradient",
       },
       {
-        name: "Text2Speech",
+        name: "ChromeExtensions",
         color: "green-text-gradient",
       },
     ],
@@ -96,7 +96,7 @@ const projects = [
   {
     name: "Punch Analytics",
     description:
-      "ML SaaS that analyzes boxing performance using POWA Boxing's Punch Sensors. Acquired by POWA Boxing.",
+      "Acquired by POWA Boxing LLC. SaaS that analyzes boxing performance using POWA Boxing's Punch Sensors.",
     tags: [
       {
         name: "OpenCV",
@@ -118,7 +118,7 @@ const projects = [
   {
     name: "Web Sec 4 Web Dev",
     description:
-      "A free Udemy course on secure web development and web pentesting. 2700+ students.",
+      "A free Udemy course on secure web development and web pentesting. 3000+ students.",
     tags: [
       {
         name: "Web Security",
@@ -135,7 +135,7 @@ const projects = [
   {
     name: "Time Series KAN",
     description:
-      "A Kolmogorov-Arnold Network for time series anomaly detection (100+ claps on Medium).",
+      "A Kolmogorov-Arnold Network for time series anomaly detection. 100+ claps on Medium.",
     tags: [
       {
         name: "Pytorch",

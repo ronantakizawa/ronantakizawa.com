@@ -34,7 +34,7 @@ function About() {
             className="text-white leading-8 bg-[#172554] rounded-lg p-6"
           >
             <h3 className="font-bold text-lg">Accomplishments</h3>
-            <p>- HackHarvard 2023 Winner</p>
+            <p>- HackHarvard 2023 Winner, HackHarvard 2024 Judge</p>
             <p>- Founder of Punch Analytics (Acquired by POWA Boxing)</p>
           </motion.div>
         </div>

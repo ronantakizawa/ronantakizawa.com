@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://ronantakizawa.github.io",
+  "homepage": "https://ronantakizawa.com",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

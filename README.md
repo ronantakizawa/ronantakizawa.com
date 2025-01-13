@@ -1,1 +1,1 @@
-This is my portfolio: https://ronantakizawa.github.io
+This is my portfolio: https://ronantakizawa.com
